@@ -1,22 +1,33 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional: for styling -->
+    <title>Three Frames Layout</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-    <section class="main-content">
-        <p>This is my website content.</p>
-        <a href="page2.html">Go to Page 2</a>
-        <button onclick="alert('Button clicked!')">Click Me</button>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
+    <div class="frame left-frame">
+        <div class="content">
+            <p>Left Frame Top</p>
+        </div>
+        <div class="content">
+            <p>Left Frame Bottom</p>
+        </div>
+    </div>
+    <div class="frame center-frame">
+        <div class="content">
+            <p>Center Frame</p>
+        </div>
+    </div>
+    <div class="frame right-frame">
+        <div class="content">
+            <p>Right Frame Top</p>
+        </div>
+        <div class="content">
+            <p>Right Frame Bottom</p>
+        </div>
+    </div>
 </body>
 </html>
