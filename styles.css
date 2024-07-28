@@ -1,4 +1,39 @@
 body {
-    background-image: url('p1.jpg');
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url('background.jpg'); /* Replace with your background image path */
     background-size: cover;
+    background-position: center;
+}
+
+.frame {
+    border: 1px solid #000;
+}
+
+.left-frame, .right-frame {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('frame-background.jpg'); /* Replace with your frame background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.center-frame {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('center-background.jpg'); /* Replace with your center background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    flex: 1;
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
