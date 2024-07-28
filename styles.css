@@ -26,7 +26,7 @@ body {
     width: 60%;
     display: flex;
     flex-direction: column;
-    background-image: url('center-background.jpg'); /* Replace with your center background image path */
+    background-image: url('https://aswinpsycho.github.io/image-compressor/'); /* Replace with your center background image path */
     background-size: cover;
     background-position: center;
 }
